@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643348822910,
+  "timestamp": 1643351157234,
   "index": "/EmpAtt/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,9 @@
       "urls": [
         "/EmpAtt/4.67f807c78ed3fce9538d.js",
         "/EmpAtt/favicon.ico",
+        "/EmpAtt/firebase-messaging-sw.js",
         "/EmpAtt/index.html",
-        "/EmpAtt/main.dfcebbec885626938eed.js",
+        "/EmpAtt/main.e897188204c840486140.js",
         "/EmpAtt/manifest.webmanifest",
         "/EmpAtt/polyfills.5c425cc8e0e56c10e370.js",
         "/EmpAtt/runtime.cab3bbfb7f3dcc15b280.js",
@@ -126,8 +127,9 @@
     "/EmpAtt/assets/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.js": "e95e9b1904dbaff970c728c796a3a770c036b09b",
     "/EmpAtt/assets/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css": "c92120930fe0af4e343de316b3792706fc7ffe65",
     "/EmpAtt/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/EmpAtt/index.html": "439e28359753b04eb558370929df2b0c7fd8ae6e",
-    "/EmpAtt/main.dfcebbec885626938eed.js": "1fa5e23c029e86fb52e0b4be32f5ffd67b76c96d",
+    "/EmpAtt/firebase-messaging-sw.js": "19863439d4f97f68ce3af07dbd2475e7efdcddd3",
+    "/EmpAtt/index.html": "3a0ede470a729c1b607fd29489e39e4b9b3d2e5c",
+    "/EmpAtt/main.e897188204c840486140.js": "5d6f9b00d5b8ed9c5f731e6d2e6698e4eace3930",
     "/EmpAtt/manifest.webmanifest": "e47e1900b058deac3d1666034687bdd03895530b",
     "/EmpAtt/polyfills.5c425cc8e0e56c10e370.js": "30895e93dccec56a5381ce68625c07d0000e1041",
     "/EmpAtt/runtime.cab3bbfb7f3dcc15b280.js": "88e92a0bcbd29710f7d02f0f335a062825666d8f",
