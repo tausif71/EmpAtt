@@ -10,13 +10,14 @@ importScripts("https://www.gstatic.com/firebasejs/9.1.3/firebase-messaging-compa
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
     // REPLACE BY YOUR FIREBASE CONFIG HERE
-    apiKey: "AIzaSyAMF__fZfJr_n4TQN3fqH_3FMwX6cDkql0",
-    authDomain: "notificationwebportal.firebaseapp.com",
-    projectId: "notificationwebportal",
-    storageBucket: "notificationwebportal.appspot.com",
-    messagingSenderId: "540556220617",
-    appId: "1:540556220617:web:0647a71b177ba2a726d518",
-    measurementId: "G-VFQLHPR6MB"
+    apiKey: "AIzaSyAB8_2kw-VQmDRoAKL3LjtjXuxsAAP5dyo",
+    authDomain: "my-test-project-39efb.firebaseapp.com",
+    databaseURL: "https://my-test-project-39efb.firebaseio.com",
+    projectId: "my-test-project-39efb",
+    storageBucket: "my-test-project-39efb.appspot.com",
+    messagingSenderId: "533938119774",
+    appId: "1:533938119774:web:37e59a6541af6a805380cf",
+    vapidKey: "BAeBOI_h2cdqTh7KZnn-FSOfNlgc1vEncANL39BtOgrDmKSvxrtrYFYLvVhjiUf44Ky4HMYyI9qhDPXMRh_eIqc"
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
