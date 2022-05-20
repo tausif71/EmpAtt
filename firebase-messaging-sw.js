@@ -16,10 +16,15 @@ firebase.initializeApp({
     projectId: "my-test-project-39efb",
     storageBucket: "my-test-project-39efb.appspot.com",
     messagingSenderId: "533938119774",
-    appId: "1:533938119774:web:37e59a6541af6a805380cf",
-    vapidKey: "BAeBOI_h2cdqTh7KZnn-FSOfNlgc1vEncANL39BtOgrDmKSvxrtrYFYLvVhjiUf44Ky4HMYyI9qhDPXMRh_eIqc"
+    appId: "1:533938119774:web:37e59a6541af6a805380cf"
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
 // messages.
 const messaging = firebase.messaging();
+navigator.serviceWorker.register('./firebase-messaging-sw.js')
+.then((registration) => {
+  messaging.useServiceWorker(registration);
+
+
+});
